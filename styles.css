@@ -1,0 +1,169 @@
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */ 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    font-size: 18px;
+    line-height: 1.5;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+}
+
+div {
+    margin: 25px;
+}
+
+section {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width:400px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+    margin-bottom:100px;
+}
+
+header {
+    height: 90px;
+    object-fit: cover;
+    background-color:#fbfbfb;
+    color: #0f0f0f;
+    position: fixed;
+    top: 0 px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    font-size: 36px;
+}
+
+#foto {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+#CV {
+    height: 30px;
+    width: 150px;
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    background-color: #af599e;
+    color: #fbfbfb;
+}
+
+.hablemos {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center; 
+    background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+}
+
+#habla {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(175, 89, 158, 0.3);
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+article img {
+    width: 100px;
+}
+
+.foot {
+    min-height: 1vh;
+    display: flex;
+    justify-content: center;
+    background-color: #af599e;
+    color: #fbfbfb;
+}
+
+#pie {
+    display: flex;
+    justify-content: center;
+    background-color: #af599e;
+}
+
+/* Recomendaciones! 
+*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
+*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
+*
+*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
+*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
+*
+*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
+*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
+*
+*  - Usen mucho las herramientas para desarrolladores del navegador para ir
+*    probando el CSS que escriben, resolver dudas y problemas.
+*
+*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
+*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
+*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
+*/
