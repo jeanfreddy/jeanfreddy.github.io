@@ -14,7 +14,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    background-color: #fbfbfb;
     font-size: 18px;
     line-height: 1.5;
     /* Para que el scrolleo en la one page sea suave */
@@ -121,10 +120,12 @@ header {
     color: #0f0f0f;
 }
 
-#habla {
+#contacto {
     display: flex;
     justify-content: center;
     background-color: rgba(175, 89, 158, 0.3);
+    min-height: 10vh;
+    color: #0f0f0f;
 }
 
 article {
@@ -136,10 +137,11 @@ article img {
     width: 100px;
 }
 
-.foot {
-    min-height: 1vh;
+footer {
+    min-height: 90px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #af599e;
     color: #fbfbfb;
 }
