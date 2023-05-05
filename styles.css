@@ -88,6 +88,7 @@ header {
     align-items: center;
     margin: 20px;
     font-size: 36px;
+    max-width: 400px;
 }
 
 #foto {
@@ -145,7 +146,7 @@ footer {
     background-color: #af599e;
     color: #fbfbfb;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     h1 {
         font-size: 32px;
     }
@@ -160,7 +161,7 @@ footer {
     p {
         padding-top: 10px;
         padding-bottom: 10px;
-        max-width:400px;
+        max-width:300px;
     }
 
     body {
