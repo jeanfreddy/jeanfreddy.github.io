@@ -84,7 +84,7 @@ header {
     position: fixed;
     top: 0 px;
     display: flex;
-    justify-content: row;
+    justify-content:space-around;
     align-items: center;
     margin: 20px;
     font-size: 36px;
