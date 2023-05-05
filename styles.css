@@ -84,11 +84,10 @@ header {
     position: fixed;
     top: 0 px;
     display: flex;
-    justify-content: space-around;
+    justify-content: row;
     align-items: center;
     margin: 20px;
     font-size: 36px;
-    width: 100%;
 }
 
 #foto {
@@ -156,7 +155,7 @@ footer {
     }
     
     div {
-        margin: 15px;
+        margin: 25px;
     }   
     p {
         padding-top: 10px;
