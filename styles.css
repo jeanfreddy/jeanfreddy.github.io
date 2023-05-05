@@ -84,7 +84,7 @@ header {
     position: fixed;
     top: 0 px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     margin: 20px;
     font-size: 36px;
@@ -144,9 +144,6 @@ footer {
     align-items: center;
     background-color: #af599e;
     color: #fbfbfb;
-<<<<<<< HEAD
-}
-=======
 }
 
 /* Recomendaciones! 
@@ -166,4 +163,3 @@ footer {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
->>>>>>> parent of 599999e (Update styles.css)
