@@ -77,6 +77,8 @@ body {
 }
 
 header {
+    display: block;
+    flex-direction: row;
     height: 90px;
     object-fit: cover;
     background-color:#fbfbfb;
