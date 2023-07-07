@@ -21,7 +21,7 @@
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 32px;
 }
 
 h2 {
@@ -112,11 +112,11 @@ header {
     object-fit: cover;
     background-color:#fbfbfb;
     color: #0f0f0f;
-    position: relative;
+    position: fixed;
     top: 0 px;
     display: flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     left: 50px;
     margin: 5px;
