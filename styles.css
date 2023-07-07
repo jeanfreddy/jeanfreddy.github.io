@@ -123,6 +123,15 @@ header {
     font-size: 36px;
 }
 
+nav {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    left: 250px;
+    margin: 5px;
+    font-size: 36px;
+}
 #foto {
     height: 400px;
     object-fit: cover;
