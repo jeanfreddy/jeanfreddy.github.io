@@ -31,6 +31,23 @@ h2 {
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #fbfbfb;
+}
+
+li {
+    padding: 20px;
+    margin: 25px;
+    background-color: #fbfbfb;
+}
+
+
+li .active{
+    padding: 20px;
+    margin: 25px;
+    background-color: #af599e;
 }
 
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
@@ -82,7 +99,7 @@ header {
     object-fit: cover;
     background-color:#fbfbfb;
     color: #0f0f0f;
-    position: relative;
+    position: fixed;
     top: 0 px;
     display: flex;
     flex-direction:row;
@@ -104,20 +121,27 @@ header {
     justify-content: center;
 }
 
-#CV {
+.CV {
     height: 30px;
     width: 150px;
     border-radius:30px;
     display: flex;
     justify-content: center;
-    background-color: #af599e;
+    background-color: rgba(89, 175, 100);
     color: #fbfbfb;
+}
+
+li.menu-item:hover,
+li.menu-item a.active,
+a.CV:hover {
+    background-color: #af599e;
+    transition: background-color 0.3s;
 }
 
 .hablemos {
     display: flex;
     justify-content: center;
-    background-color: rgba(175, 89, 158, 0.3);
+    background-color: rgba(89, 175,  100);
     min-height: 10vh;
     color: #0f0f0f;
 }
@@ -125,7 +149,7 @@ header {
 #contacto {
     display: flex;
     justify-content: center;
-    background-color: rgba(175, 89, 158, 0.3);
+    background-color: rgba(89, 175,  100);
     min-height: 10vh;
     color: #0f0f0f;
 }
@@ -162,7 +186,6 @@ footer {
 
     header {
         width: 1200px;
-        flex-direction:row;
         justify-content:space-between;
         align-items: center;
         height: 90px;
@@ -221,23 +244,23 @@ footer {
     justify-content: center;
 }
 
-.hablemos {
-    margin-left: 280px;
-    display: inline;
-    max-width: 50%;
+    .hablemos {
+        margin-left: 300px;
+        display: flex;
+        justify-content: center;
+        max-width: 50%;
 }
 
-footer {
-    margin-left: 280px;
-    max-width: 50%;
-    min-height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #af599e;
-    color: #fbfbfb;
+    footer {
+        margin-left: 300px;
+        max-width: 50%;
+        min-height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(89, 175,  100);
+        color: #fbfbfb;
 }
-
 }
 
 /* Recomendaciones! 
