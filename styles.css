@@ -74,7 +74,7 @@ a {
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
 main {
-    max-width: 1200px;
+    max-width: 1199px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -109,7 +109,6 @@ body {
 
 header {
     height: 90px;
-    max-width: 200px;
     object-fit: cover;
     background-color:#fbfbfb;
     color: #0f0f0f;
@@ -117,7 +116,7 @@ header {
     top: 0 px;
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     left: 250px;
     margin: 5px;
