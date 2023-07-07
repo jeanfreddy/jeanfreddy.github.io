@@ -118,6 +118,7 @@ header {
     flex-direction:row;
     justify-content: center;
     align-items: center;
+    left: 50px;
     margin: 5px;
     font-size: 36px;
 }
